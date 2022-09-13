@@ -1,0 +1,230 @@
+/*W600 미디어쿼리*/
+@media all and (min-width:600px) {
+
+    /*  intro  */
+    .intro_title h1 {
+        font-size: 24px;
+    }
+    .intro_bottom p {
+        font-size: 16px;
+    }
+    .intro_top_box .hi {
+        font-size: 36px;
+        right: -6%;
+    }
+
+    /* skills */
+    .card_wrap {
+        justify-content: space-evenly;
+    }
+    .card_box {
+        width: 35%;
+    }
+
+    /*  works  */
+    .box_list {
+        height: 4400px;
+    }
+    .box {
+        height: 900px;
+    }
+    .title {
+        font-size: 36px;
+    }
+    .work_title {
+        font-size: 28px;
+    }
+    .desc_box {
+        font-size: 18px;
+    }
+    .btns a {
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .btns a:before {
+        height: 50px;
+    }
+    .mockup_box {
+        height: 60%;
+    }
+    .desc_box {
+        height: 40%;
+    }
+    .design_box .design {
+        height: 300px;
+    }
+    .design_modal {
+        height: 600px;
+    }
+}
+
+/*W900미디어쿼리*/
+@media all and (min-width:900px) {
+    /*  intro  */
+    .intro_title h1 {
+        font-size: 34px;
+    }
+    .intro_top_box .hi {
+        font-size: 36px;
+        right: -2%;
+    }
+    .me {
+        width: 65%;
+        float: right;
+    }
+    .intro_info {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .intro_bottom_box {
+        margin-top: -100px;
+    }
+    .intro_bottom p {
+        font-size: 18px;
+    }
+    .intro_desc {
+        display: flex;
+        justify-content: center;
+    }
+    .design_box .design {
+        height: 400px;
+    }
+
+    /* skills */
+    .skills {
+        margin-top: 150px;
+    }
+    .card_box {
+        width: 22%;
+    }
+    
+    /* works */
+    .box_list {
+        height: 2600px;
+    }
+    .box {
+        height: 550px;
+    }
+    .mole_box img,
+    .updown_box img {
+        width: 80%;
+    }
+    .btns a {
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .btns a:before {
+        height: 40px;
+    }
+    .mockup_box {
+        width: 50%;
+    }
+    .desc_box {
+        width: 50%;
+        bottom: 50%;
+        font-size: 18px;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+    .work_title {
+        font-size: 24px;
+    }
+}
+
+/*W1300미디어쿼리*/
+@media all and (min-width:1300px) {
+
+    /* menu */
+    .gnb_toggle_btn {
+        display: none;
+    }    
+    .menu {
+        display: block;
+    }
+
+    /* intro */
+    .intro_bottom p {
+        font-size: 20px;
+    }
+    .picture {
+        width: 35%;
+        margin-left: 70%;
+    }
+    .me {
+        width: 100%;
+    }
+    .intro_title h1 {
+        font-size: 38px;
+    }
+    .intro_top_box .hi {
+        font-size: 40px;
+    }
+
+    /* works */
+    .box_list {
+        height: 3000px;
+    }
+    .box {
+        height: 600px;
+    }
+    .work_title {
+        font-size: 32px;
+    }
+    .box .desc_box p {
+        width: 60%;
+        font-size: 22px;
+        margin: 0 auto;
+    }
+    .btns {
+        margin-top: 40px;
+    }
+    .btns a {
+        height: 55px;
+        font-size: 20px;
+        line-height: 55px;
+    }
+    .btns a::before {
+        height: 55px;
+    }
+    .mole_box img,
+    .todo_box img,
+    .updown_box img {
+        width: 68%;
+    }
+    .todo_box img {
+        display: block;
+        margin: 0 auto;
+    }
+    .design_box {
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .design_modal {
+        height: 650px;
+    }
+    .dimmed {
+        width: 140%;
+        margin-left: -20%;
+    }
+}
+
+/*W1920미디어쿼리*/
+@media all and (min-width:1920px) {
+    /* menu */
+    .menu {
+        top: 450px;
+    }
+    /* intro */
+    .intro_top_box::before {
+        height: 500px;
+    }
+    /* works */
+    .mole_box img,
+    .todo_box img,
+    .updown_box img {
+        width: 60%;
+    }
+}
