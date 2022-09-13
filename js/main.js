@@ -53,13 +53,6 @@ $(window).load(function () {
     }
 });
 
-// 모바일_메뉴
-$('.m_more').click(function(){
-    $('.dimmed').show();
-    $('.modal').show();
-    $('body').addClass('none_scroll');
-});
-
 // 디자인
 var w = ($(window).width()/2)-($('.design_modal').width()/2);
 var h = ($(window).height()/2)-($('.design_modal').height()/2);
